@@ -4,7 +4,7 @@ from django.contrib.admin import site
 from django.contrib.admin.views.decorators import staff_member_required
 from django.utils.decorators import method_decorator
 from django.core.exceptions import ImproperlyConfigured
-from django.views import View
+from django.views.generic import View
 
 from .config import get_config
 
